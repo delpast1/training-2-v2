@@ -1,0 +1,27 @@
+{
+  "name": "training2-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "training2-v2": "www.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "email-validator": "^1.0.7",
+    "events": "^1.1.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.8.6",
+    "morgan": "^1.8.1",
+    "swagger-jsdoc": "^1.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
